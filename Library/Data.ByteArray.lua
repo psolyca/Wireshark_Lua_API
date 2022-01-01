@@ -13,8 +13,8 @@ ByteArray = {}
 --- @return ByteArray @The new ByteArray object.
 function ByteArray.new(hexbytes, separator) end
 
---- @type ByteArray
-local bytearray = {}
+--- @class ByteArray
+bytearray = {}
 
 --- Concatenate two ByteArrays.
 --- @param first ByteArray First array.
@@ -47,7 +47,7 @@ function bytearray:set_index(index, value) end
 
 --- Get the value of a byte in a ByteArray.
 --- @param index number The position of the byte to get.
---- @return number char The value [0-255] of the byte.
+--- @return number @The value [0-255] of the byte.
 function bytearray:get_index(index) end
 
 --- Obtain the length of a ByteArray.

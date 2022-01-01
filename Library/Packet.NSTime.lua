@@ -14,7 +14,7 @@ NSTime = {}
 --- @return NSTime @The new NSTime object.
 function NSTime.new(seconds, nseconds) end
 
---- @type NSTime
+--- @class NSTime
 local nstime = {}
 
 --- Creates a NSTime object.

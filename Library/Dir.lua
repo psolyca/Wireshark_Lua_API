@@ -57,7 +57,7 @@ function Dir.personal_plugins_path() end
 --- @return string @The pathname of the global plugins directory.
 function Dir.global_plugins_path() end
 
---- @type Dir
+--- @class Dir
 local dir = {}
 
 --- Gets the next file or subdirectory within the directory, or nil when done.

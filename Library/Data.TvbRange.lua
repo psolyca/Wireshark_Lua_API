@@ -9,7 +9,7 @@
 --- @class TvbRange
 TvbRange = {}
 
---- @type TvbRange
+--- @class TvbRange
 local tvbrange = {}
 
 --- Creates a new Tvb from a TvbRange.

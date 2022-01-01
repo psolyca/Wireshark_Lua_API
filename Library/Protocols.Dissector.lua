@@ -16,7 +16,7 @@ function Dissector.get(name) end
 --- @return string[] The array table of registered dissector names.
 function Dissector.list() end
 
---- @type Dissector
+--- @class Dissector
 local dissector = {}
 
 --- Calls a dissector against a given packet (or part of it).

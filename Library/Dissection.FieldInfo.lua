@@ -23,7 +23,7 @@
 --- @field public name string The filter name of this field.
 FieldInfo = {}
 
---- @type FieldInfo
+--- @class FieldInfo
 local fieldinfo = {}
 
 --- Obtain the Length of the field

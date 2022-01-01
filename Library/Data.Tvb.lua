@@ -9,7 +9,7 @@
 --- @class Tvb
 Tvb = {}
 
---- @type Tvb
+--- @class Tvb
 local tvb = {}
 
 --- Convert the bytes of a Tvb into a string. This is primarily useful for debugging purposes since the string will be truncated if it is too long.

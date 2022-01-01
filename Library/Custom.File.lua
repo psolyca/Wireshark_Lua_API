@@ -13,7 +13,7 @@
 --- Set to wtap_encaps.PER_PACKET if packets can have different types, then later set FrameInfo.encap for each packet during read()/seek_read().
 File = {}
 
---- @type File
+--- @class File
 local file = {}
 
 --- Reads from the File, similar to Lua’s file:read(). See Lua 5.x ref manual for file:read().

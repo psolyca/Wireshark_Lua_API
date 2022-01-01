@@ -8,7 +8,7 @@
 --- @class Column
 Column = {}
 
---- @type Column
+--- @class Column
 local column = {}
 
 --- @return string The column’s string text (in parenthesis if not available).

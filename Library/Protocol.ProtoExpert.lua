@@ -15,7 +15,7 @@ ProtoExpert = {}
 --- @return ProtoExpert @The newly created ProtoExpert object.
 function ProtoExpert.new(abbr, text, group, severity) end
 
---- @type ProtoExpert
+--- @class ProtoExpert
 local protoexpert = {}
 
 --- @return string @a string with debugging information about a ProtoExpert object.

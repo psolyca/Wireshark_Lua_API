@@ -19,7 +19,7 @@
 --- @field encap wtap_encaps The packet encapsulation type for the frame/packet, if the file supports per-packet types.
 FrameInfo = {}
 
---- @type FrameInfo
+--- @class FrameInfo
 local frameinfo = {}
 
 --- Generates a string of debug info for the FrameInfo

@@ -29,7 +29,7 @@ function Listener.new(tap, filter, allfields) end
 --- @return string[] @The array table of registered tap names
 function Listener.list() end
 
---- @type Listener
+--- @class Listener
 local listener = {}
 
 --- Removes a tap Listener.

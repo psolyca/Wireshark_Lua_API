@@ -7,7 +7,7 @@
 --- @class Prefs
 Prefs = {}
 
---- @type Prefs
+--- @class Prefs
 local prefs = {}
 
 --- Creates a new preference.

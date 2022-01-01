@@ -12,7 +12,7 @@
 --- @field public len number Set/get TreeItem's length inside tvb, after it has already been created
 TreeItem = {}
 
---- @type TreeItem
+--- @class TreeItem
 local treeitem = {}
 
 --- Adds a new child tree for the given ProtoField object to this tree item, returning the new child TreeItem.

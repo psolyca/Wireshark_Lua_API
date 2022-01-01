@@ -33,7 +33,7 @@ function Int64.min() end
 --- @return Int64 @The new Int64 object.
 function Int64.fromhex(hex) end
 
---- @type Int64
+--- @class Int64
 local int64 = {}
 
 --- Encodes the Int64 number into an 8-byte Lua string using the given endianness.

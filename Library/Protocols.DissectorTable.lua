@@ -36,7 +36,7 @@ function DissectorTable.try_heuristics(listname, tvb, pinfo, tree) end
 --- @return DissectorTable @The DissectorTable reference if found, otherwise nil.
 function DissectorTable.get(tablename) end
 
---- @type DissectorTable
+--- @class DissectorTable
 local dissectortable = {}
 
 --- Add a Proto with a dissector function or a Dissector object to the dissector table.

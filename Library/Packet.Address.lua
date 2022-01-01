@@ -23,7 +23,7 @@ function Address.ipv6(hostname) end
 --- @return Address @The Address object.
 function Address.ether(eth) end
 
---- @type Address
+--- @class Address
 local address = {}
 
 --- @return string @ The string representing the address.

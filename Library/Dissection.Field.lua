@@ -21,7 +21,7 @@ function Field.new(fieldname) end
 --- @return Field[] Table The array table of field filter names
 function Field.list() end
 
---- @type Field
+--- @class Field
 local field = {}
 
 --- Obtain all values (see FieldInfo) for this field.

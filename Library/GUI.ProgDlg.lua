@@ -14,7 +14,7 @@ ProgDlg = {}
 --- @return ProgDlg ProgDlg The newly created ProgDlg object.
 function ProgDlg.new(title, task) end
 
---- @type ProgDlg
+--- @class ProgDlg
 local progdlg = {}
 
 --- Sets the progress dialog’s progress bar position based on percentage done.

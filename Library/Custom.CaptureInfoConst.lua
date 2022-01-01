@@ -20,7 +20,7 @@
 --- The private_table is a field you set/get with your own Lua table. This is provided so that a Lua script can save per-file reading/writing state, because multiple files can be opened and read at the same time.
 CaptureInfoConst = {}
 
---- @type CaptureInfoConst
+--- @class CaptureInfoConst
 local captureinfoconst = {}
 
 --- Generates a string of debug info for the CaptureInfoConst

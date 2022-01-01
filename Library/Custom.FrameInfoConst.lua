@@ -15,7 +15,7 @@
 --- @field frameinfoconst.encap wtap_encaps The packet encapsulation type, if the file supports per-packet types.
 FrameInfoConst = {}
 
---- @type FrameInfoConst
+--- @class FrameInfoConst
 local frameinfoconst = {}
 
 --- Generates a string of debug info for the FrameInfo

@@ -18,7 +18,7 @@
 --- @field captureinfo.private_table table A private Lua value unique to this file. The private_table is a field you set/get with your own Lua table. This is provided so that a Lua script can save per-file reading/writing state, because multiple files can be opened and read at the same time.
 CaptureInfo = {}
 
---- @type CaptureInfo
+--- @class CaptureInfo
 local captureinfo = {}
 
 --- Generates a string of debug info for the CaptureInfo

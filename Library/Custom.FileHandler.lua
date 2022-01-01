@@ -75,7 +75,7 @@ FileHandler = {}
 --- @param type string The type of FileHandler, "r"/"w"/"rw" for reader/writer/both, include "m" for magic, "s" for strong heuristic@return The newly created FileHandler object
 function FileHandler.new(description, name, internal_description, type) end
 
---- @type FileHandler
+--- @class FileHandler
 local filehandler = {}
 
 --- Generates a string of debug info for the FileHandler

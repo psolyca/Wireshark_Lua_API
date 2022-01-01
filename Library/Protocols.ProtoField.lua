@@ -281,7 +281,7 @@ function ProtoField.systemid(abbr, name, desc) end
 --- @return ProtoField @A ProtoField object to be added to a table set to the Proto.fields attribute.
 function ProtoField.eui64(abbr, name, desc) end
 
---- @type ProtoField
+--- @class ProtoField
 local protofield = {}
 
 --- @return string @a string with info about a protofield (for debugging purposes).

@@ -13,7 +13,7 @@ TextWindow = {}
 --- @return TextWindow TextWindow The newly created TextWindow object.
 function TextWindow.new(title) end
 
---- @type TextWindow
+--- @class TextWindow
 local textwindow = {}
 
 --- Set the function that will be called when the text window closes.

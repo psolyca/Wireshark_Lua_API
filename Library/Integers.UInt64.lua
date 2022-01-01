@@ -33,7 +33,7 @@ function UInt64.min() end
 --- @return UInt64 @The new UInt64 object.
 function UInt64.fromhex(hex) end
 
---- @type UInt64
+--- @class UInt64
 uint64 = {}
 
 --- Encodes the UInt64 number into an 8-byte Lua binary string, using given endianness.

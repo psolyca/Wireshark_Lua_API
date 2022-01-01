@@ -8,7 +8,7 @@
 --- @class PrivateTable
 PrivateTable = {}
 
---- @type PrivateTable
+--- @class PrivateTable
 local privatetable = {}
 
 --- Gets debugging type information about the private table.

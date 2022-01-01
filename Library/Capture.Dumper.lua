@@ -14,7 +14,7 @@ Dumper = {}
 --- @return Dumper @The newly created Dumper object
 function Dumper.new(filename, filetype, encap) end
 
---- @type Dumper
+--- @class Dumper
 local dumper = {}
 
 --- Closes a dumper.

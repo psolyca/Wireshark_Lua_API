@@ -97,7 +97,7 @@ function GRegex.split(subject, sep, cf, ef) end
 --- @return string @The version string
 function GRegex.version() end
 
---- @type GRegex
+--- @class GRegex
 gregex = {}
 
 --- Searches for the first match of the regexp pattern in the string subject, starting from offset init, subject to flags ef.

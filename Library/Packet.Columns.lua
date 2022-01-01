@@ -8,7 +8,7 @@
 --- @class Columns
 Columns = {}
 
---- @type Columns
+--- @class Columns
 local columns = {}
 
 --- @return string @The string "Columns". This has no real use aside from debugging.

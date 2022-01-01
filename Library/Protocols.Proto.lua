@@ -24,7 +24,7 @@ Proto = {}
 --- @return Proto The newly created Proto object.
 function Proto.new(name, desc) end
 
---- @type Proto
+--- @class Proto
 local proto = {}
 
 --- Creates a Proto object.
